@@ -1,0 +1,49 @@
+.grid {
+    display: flex;
+
+    gap: 24px;
+
+
+}
+
+.error {
+    color: red;
+    font-size: 20px;
+}
+
+.main {
+    margin: 30px 40px 0 0;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: end;
+}
+
+.para p {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.box {
+    height: 55px;
+    width: 55px;
+    display: grid;
+    place-items: center;
+    border: 1px solid black;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.box1 {
+    height: 55px;
+    width: 55px;
+    display: grid;
+    background-color: black;
+    color: white;
+    place-items: center;
+    border: 1px solid black;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+}
